@@ -1,0 +1,8 @@
+1¡¢name convention
+  class name:  example "LoginPage"
+  method name: example "clickLoginButton"
+  variable name: example "loginButton"
+
+2¡¢locator convention
+  locator type: css 
+   
