@@ -1,0 +1,43 @@
+baseClass: com.paypal.selion.testcomponents.BasicPageImpl
+pageTitle:
+  US: Home Page
+elements:
+  cartRentalLabel:
+    locators:
+      US: "css=#primary-header-cars"
+  flightLabel:
+    locators:
+      US: css=#tab-flight-tab
+  returnLabel:
+    locators:
+      US: css=#flight-type-roundtrip-label
+  oneWayLabel:
+    locators:
+      US: css=#flight-type-one-way-label
+  startTextField:
+    locators:
+      US: css=#flight-origin
+  startList:
+    locators:
+      US: "css=#aria-option-0>div"
+  destinationTextField:
+    locators:
+      US: css=#flight-destination
+  destinationPlaceLabel:
+    locators:
+      US: css=#aria-option-0
+  timeDepartTextField:
+    locators:
+      US: "css=#flight-departing"
+  timeReturnTextField:
+    locators:
+      US: "css=#flight-returning"      
+  blackLabel:
+    locators:
+      US: css=#wizard-theme-wrapper
+  searchButton:
+    locators:
+      US: css=#search-button
+pageValidators:
+- destinationPlaceLabel.isVisible
+defaultLocale: US

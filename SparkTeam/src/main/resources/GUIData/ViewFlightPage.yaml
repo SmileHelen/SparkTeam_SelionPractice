@@ -1,0 +1,10 @@
+baseClass: com.paypal.selion.testcomponents.BasicPageImpl
+pageTitle:
+  US: View Flight Page
+elements:
+  viewLabel:
+    locators:
+      US: "css=.section-header-main.header-class"                    
+pageValidators:
+- defaultSelectButton.isVisible
+defaultLocale: US

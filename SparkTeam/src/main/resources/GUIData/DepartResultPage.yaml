@@ -1,0 +1,23 @@
+baseClass: com.paypal.selion.testcomponents.BasicPageImpl
+pageTitle:
+  US: Depart Result Page
+elements:
+  defaultSelectButton:
+    locators:
+      US: "css=.btn-secondary.btn-action.t-select-btn[data-offer-index='0']"      
+  sortSelectList:
+    locators:
+      US: "css=select[name='sort']"
+  flightContainer:
+    locators:
+      US: "css=li[id^='flightModule']"
+    containerElements:
+      selectButton:
+        locators:
+          US: "css=.btn-secondary"
+      timeLabel:
+        locators:
+          US: "css=.primary.duration-emphasis"                 
+pageValidators:
+- defaultSelectButton.isVisible
+defaultLocale: US
